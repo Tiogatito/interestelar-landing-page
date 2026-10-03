@@ -40,6 +40,6 @@ As opções estão registradas em `vercel.json`. Novos commits na branch princip
 - [Legendary Pictures — filme e imagens](https://www.legendary.com/film/interstellar/)
 - [Paramount Pictures — ficha do filme e pôster](https://www.paramountpictures.com/movies/interstellar)
 - [Trailer oficial — Warner Bros. UK & Ireland](https://www.youtube.com/watch?v=zSWdZVtXT7E)
-- Fontes Avenir e ilustrações de dispositivos: material de apoio fornecido no curso.
+- Fontes Avenir e ilustrações de dispositivos: material de apoio fornecido no curso. Os arquivos WOFF2 foram recodificados para corrigir um erro de decodificação no Chrome, preservando a fonte original.
 
 Página educacional não oficial, sem fins comerciais. Os materiais visuais e os nomes do filme pertencem aos respectivos titulares. Os links de disponibilidade consultam serviços externos; esta página não vende assinaturas.

@@ -12,6 +12,7 @@ toggle.addEventListener('click', () => {
   header.classList.toggle('header--open', expanded);
 });
 nav.addEventListener('click', event => { if (event.target.closest('a')) closeMenu(); });
+document.querySelector('.header__brand').addEventListener('click', closeMenu);
 document.addEventListener('keydown', event => {
   if (event.key === 'Escape' && toggle.getAttribute('aria-expanded') === 'true') { closeMenu(); toggle.focus(); }
 });
