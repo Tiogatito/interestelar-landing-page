@@ -1,0 +1,1 @@
+{"name":"interestelar-landing-page","version":"1.0.0","private":true,"description":"Landing page sobre Interestelar — Projeto 4","scripts":{"build":"gulp","dev":"gulp watch","preview":"python3 -m http.server 4173 --directory dist"},"devDependencies":{"gulp":"^5.0.1","gulp-sass":"^6.0.1","gulp-terser":"^2.1.0","sass":"^1.93.0","sharp":"^0.35.5"}}
