@@ -7,7 +7,7 @@ const path = require('node:path');
 function styles() { return src('src/styles/main.scss').pipe(sass({style:'compressed'})).pipe(dest('dist/css')); }
 function scripts() { return src('src/scripts/*.js').pipe(terser()).pipe(dest('dist/js')); }
 function html() { return src('src/*.html').pipe(dest('dist')); }
-function fonts() { return src('src/fonts/*').pipe(dest('dist/fonts')); }
+function fonts() { return src('src/fonts/*', {encoding: false}).pipe(dest('dist/fonts')); }
 async function images() {
   async function optimize(folder, output) {
     await fs.mkdir(output,{recursive:true});
